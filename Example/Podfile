@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PMUtilsComponent_Example' do
+  pod 'PMUtilsComponent', :path => '../'
+
+  target 'PMUtilsComponent_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
